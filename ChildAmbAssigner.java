@@ -71,7 +71,7 @@ class Child {
 }
 
 /**
- * The Amb class represents an ambulance with a label, x, and y coordinates.
+ * The Amb class represents an Ambrella with a label, x, and y coordinates.
  * It also has a method to calculate the distance between itself and a Child.
  */
 class Amb {
@@ -82,9 +82,9 @@ class Amb {
      /**
      * Constructor for the Amb class.
      * 
-     * @param label the label of the ambulance
-     * @param x the x coordinate of the ambulance
-     * @param y the y coordinate of the ambulance
+     * @param label the label of the Ambrella
+     * @param x the x coordinate of the Ambrella
+     * @param y the y coordinate of the Ambrella
      */
     public Amb(String label, int x, int y) {
         this.label = label;
@@ -93,27 +93,27 @@ class Amb {
     }
 
      /**
-     * Returns the label of the ambulance.
+     * Returns the label of the Ambrella.
      * 
-     * @return the label of the ambulance
+     * @return the label of the Ambrella
      */
     public String getLabel() {
         return label;
     }
 
      /**
-     * Returns the x coordinate of the ambulance.
+     * Returns the x coordinate of the Ambrella.
      * 
-     * @return the x coordinate of the ambulance
+     * @return the x coordinate of the Ambrella
      */
     public int getX() {
         return x;
     }
 
        /**
-     * Returns the y coordinate of the ambulance.
+     * Returns the y coordinate of the Ambrella.
      * 
-     * @return the y coordinate of the ambulance
+     * @return the y coordinate of the Ambrella
      */
     public int getY() {
         return y;
